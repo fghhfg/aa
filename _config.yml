@@ -12,3 +12,12 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# https://github.com/prose/prose/wiki/Prose-Configuration
+prose:
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          element: "checkbox"
+          value: "true"
